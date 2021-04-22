@@ -1,0 +1,9 @@
+---
+name: UnlimitedSlots
+author: cr1m
+main: Cr1m\RenderCore\SimpleMapRenderer
+version: 1.0.0
+api:
+- 3.0.0
+mcpe-protocol: 431
+...
