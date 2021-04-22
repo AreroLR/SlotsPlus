@@ -3,6 +3,8 @@
 A pocketmine plugin which allows you to fake player slots or get unlimited player slots.
 [![](https://poggit.pmmp.io/shield.state/SlotsPlus)](https://poggit.pmmp.io/p/SlotsPlus)
 <a href="https://poggit.pmmp.io/p/SlotsPlus"><img src="https://poggit.pmmp.io/shield.state/SlotsPlus"></a>
+[![](https://poggit.pmmp.io/shield.api/SlotsPlus)](https://poggit.pmmp.io/p/SlotsPlus)
+<a href="https://poggit.pmmp.io/p/SlotsPlus"><img src="https://poggit.pmmp.io/shield.api/SlotsPlus"></a>
 
 # How do i use it?
 
