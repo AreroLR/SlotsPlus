@@ -12,7 +12,7 @@ satisfy your needs. If you want unlimited player slots, Set the "unlimitedSlots"
 player slots, Set the "fakePlayers" value to true and set the "fakeSlots" value to the amount of fake players you want. If you don't want to fake your
 players, Set it to false. 
 
-# config.yml
+# Configuration (config.yml)
 ```yaml
 ---
 # Allows you to have unlimited player slots on your server. Setting this to true will scale player slots when a player joins. 
