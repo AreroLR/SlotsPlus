@@ -1,9 +1,8 @@
 ---
-name: UnlimitedSlots
+name: SlotsPlus
 author: cr1m
-main: cr1m\UnlimitedSlots
+main: cr1m\Main
 version: 1.0.0
 api:
 - 3.0.0
-mcpe-protocol: 431
 ...

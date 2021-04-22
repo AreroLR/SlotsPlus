@@ -1,0 +1,14 @@
+---
+# Allows you to have unlimited player slots on your server. Setting this to true will scale player slots when a player joins. 
+# (Eg. When 1 player joins, Minecraft will display it as 1/2 players. When another player joins, It will display it as 2/3 and so and so on.)
+unlimitedSlots: true
+
+# Allows you to fake your player slots.
+fakePlayers: false
+
+# Amount of fake players.
+fakeSlots: 10
+
+# Total amount of player slots.
+maxSlots: 1000
+...
