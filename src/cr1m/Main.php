@@ -40,7 +40,7 @@ class Main extends PluginBase implements Listener
         if ($config->get("fakePlayers") === true) {
             $fakeCount = $config->get("fakeSlots");
             $maxPlayerCount = $config->get("maxSlots");
-            $event->setPlayerCount(mt_rand($fakeCount, $maxPlayerCount));
+            $event->setPlayerCount($fakeCount, $maxPlayerCount);
         }
     }
 }
