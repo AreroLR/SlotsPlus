@@ -1,7 +1,7 @@
 ---
 name: UnlimitedSlots
 author: cr1m
-main: Cr1m\RenderCore\SimpleMapRenderer
+main: cr1m\UnlimitedSlots
 version: 1.0.0
 api:
 - 3.0.0
