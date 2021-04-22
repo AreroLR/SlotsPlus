@@ -26,8 +26,5 @@ fakePlayers: false
 
 # Amount of fake players.
 fakeSlots: 10
-
-# Total amount of player slots.
-maxSlots: 1000
 ...
 ```
