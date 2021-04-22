@@ -1,2 +1,2 @@
-# UnlimitedSlots (IN DEVELOPMENT)
-A pocketmine plugin which provides unlimited player slots for your server. 
+# SlotsPlus (IN DEVELOPMENT)
+A pocketmine plugin which allows you to fake player slots or get unlimited player slots.
