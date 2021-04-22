@@ -2,7 +2,7 @@
 name: SlotsPlus
 author: cr1m
 main: cr1m\Main
-version: 1.2
+version: 1.3
 api:
 - 3.0.0
 ...
