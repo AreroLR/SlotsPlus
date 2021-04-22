@@ -39,8 +39,7 @@ class Main extends PluginBase implements Listener
         $config = new Config($this->getDataFolder() . "config.yml", Config::YAML, array());
         if ($config->get("fakePlayers") === true) {
             $fakeCount = $config->get("fakeSlots");
-            $maxPlayerCount = $config->get("maxSlots");
-            $event->setPlayerCount($fakeCount, $maxPlayerCount);
+            $event->setPlayerCount($fakeCount);
         }
     }
 }
