@@ -1,3 +1,5 @@
+![banner](https://user-images.githubusercontent.com/78657082/115743054-26dd2f00-a346-11eb-8514-afe07d425bc0.jpg)
+
 # SlotsPlus 
 
 A pocketmine plugin which allows you to fake player slots or get unlimited player slots.
