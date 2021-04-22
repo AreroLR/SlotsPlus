@@ -8,3 +8,21 @@ Once you've downloaded the plugin, Put the plugin in your server's plugin folder
 satisfy your needs. If you want unlimited player slots, Set the "unlimitedSlots" value to true. If you don't, Set it to false. If you want to fake your 
 player slots, Set the "fakePlayers" value to true and set the "fakeSlots" value to the amount of fake players you want and set the "maxPlayers" value 
 to the total amount of players you would like to be able to play on your server. If you don't want to fake your players, Set it to false. 
+
+# config.yml
+```yaml
+---
+# Allows you to have unlimited player slots on your server. Setting this to true will scale player slots when a player joins. 
+# (Eg. When 1 player joins, Minecraft will display it as 1/2 players. When another player joins, It will display it as 2/3 and so and so on.)
+unlimitedSlots: true
+
+# Allows you to fake your player slots.
+fakePlayers: false
+
+# Amount of fake players.
+fakeSlots: 10
+
+# Total amount of player slots.
+maxSlots: 1000
+...
+```
