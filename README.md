@@ -25,10 +25,7 @@ slots, Set it to false.
 # (Eg. When 1 player joins, Minecraft will display it as 1/2 players. When another player joins, It will display it as 2/3 and so and so on.)
 unlimitedSlots: true
 
-# Allows you to fake your player slots.
-fakePlayers: false
-
-# Amount of fake players.
+# Amount of fake slots.
 fakeSlots: 10
 ...
 ```
