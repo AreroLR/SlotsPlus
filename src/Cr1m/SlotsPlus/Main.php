@@ -26,6 +26,12 @@ class Main extends PluginBase implements Listener
         if (!is_dir($this->getDataFolder())) {
             @mkdir($this->getDataFolder());
         }
+
+        $config = new Config($this->getDataFolder() . "config.yml", Config::YAML, array());
+        if ($config->get("fakeSlots") >= ($this->getServer()->getMaxPlayers())) {
+            $this->getLogger()->alert("Please make sure you set your max player count to something more than the amount of fake slots!");
+            $this->getServer()->getPluginManager()->disablePlugin($this);
+        }
     }
 
     public function slotsPlus(QueryRegenerateEvent $event)
@@ -37,9 +43,10 @@ class Main extends PluginBase implements Listener
         }
 
         $config = new Config($this->getDataFolder() . "config.yml", Config::YAML, array());
-        if ($config->get("fakePlayers") === true) {
+        if ($config->get("fakeSlots") < $this->getServer()->getMaxPlayers()) {
             $fakeCount = $config->get("fakeSlots");
             $event->setPlayerCount($fakeCount);
         }
     }
 }
+
