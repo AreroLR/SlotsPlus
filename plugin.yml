@@ -2,7 +2,7 @@
 name: SlotsPlus
 author: cr1m
 description: A plugin which allows you to fake player slots or get unlimited player slots.
-main: cr1m\Main
+main: Cr1m\SlotsPlus\Main
 version: 1.3
 api:
 - 3.0.0
