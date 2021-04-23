@@ -4,6 +4,7 @@
 
 A pocketmine plugin which allows you to fake player slots or get unlimited player slots.
 
+<a href="https://poggit.pmmp.io/p/SlotsPlus"><img src="https://poggit.pmmp.io/shield.state/SlotsPlus"></a>
 <a href="https://github.com/Cr1mDev/SlotsPlus/releases"><img src="https://user-images.githubusercontent.com/78657082/115741287-74589c80-a344-11eb-83bc-98c11b464855.png"></a>
 
 # Notes
