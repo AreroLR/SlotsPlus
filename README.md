@@ -4,6 +4,7 @@
 
 A pocketmine plugin which allows you to fake player slots or get unlimited player slots.
 
+<a href="https://poggit.pmmp.io/p/SlotsPlus"><img src="https://poggit.pmmp.io/shield.state/SlotsPlus"></a>
 <a href="https://github.com/Cr1mDev/SlotsPlus/releases"><img src="https://user-images.githubusercontent.com/78657082/115741287-74589c80-a344-11eb-83bc-98c11b464855.png"></a>
 
 # Notes
@@ -15,8 +16,7 @@ A pocketmine plugin which allows you to fake player slots or get unlimited playe
 
 Once you've downloaded the plugin, Put the plugin in your server's plugin folder. After that, Edit the config.yml file (Found at resources\config.yml) to 
 satisfy your needs. If you want unlimited player slots, Set the "unlimitedSlots" value to true. If you don't, Set it to false. If you want to fake your 
-player slots, Set the "fakePlayers" value to true and set the "fakeSlots" value to the amount of fake slots you want. If you don't want to fake your
-slots, Set it to false. 
+player slots, Set the "fakeSlots" value to the amount of fake slots you want. If you don't want to fake your slots, Set it to false. 
 
 # Configuration (config.yml)
 ```yaml
@@ -25,10 +25,7 @@ slots, Set it to false.
 # (Eg. When 1 player joins, Minecraft will display it as 1/2 players. When another player joins, It will display it as 2/3 and so and so on.)
 unlimitedSlots: true
 
-# Allows you to fake your player slots.
-fakePlayers: false
-
-# Amount of fake players.
+# Amount of fake slots.
 fakeSlots: 10
 ...
 ```
