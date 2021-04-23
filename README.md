@@ -6,6 +6,10 @@ A pocketmine plugin which allows you to fake player slots or get unlimited playe
 
 <a href="https://poggit.pmmp.io/r/123595/SlotsPlus.phar"><img src="https://user-images.githubusercontent.com/78657082/115741287-74589c80-a344-11eb-83bc-98c11b464855.png"></a>
 
+## Note
+
+The plugin will **NOT** work if you enable both unlimitedSlots and fakePlayers. Only enable one at a time.
+
 # How do i use it?
 
 Once you've downloaded the plugin, Put the plugin in your server's plugin folder. After that, Edit the config.yml file (Found at resources\config.yml) to 
