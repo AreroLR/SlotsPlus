@@ -6,4 +6,18 @@ main: Cr1m\SlotsPlus\Main
 version: 1.4
 api:
 - 3.0.0
+commands:
+  fakeplayers:
+    usage: "/fakeplayers <int>"
+    permission: SlotsPlus.command.fakeplayers
+  unlimitedslots:
+    usage: "/unlimitedslots"
+    permission: SlotsPlus.command.unlimitedslots
+permissions:
+  SlotsPLus.command.fakeplayers:
+    description: "Allows the user to run the fakeplayers command"
+    default: false
+  SlotsPLus.command.unlimitedslots:
+    description: "Allows the user to run the unlimitedslots command"
+    default: false
 ...
