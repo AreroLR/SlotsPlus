@@ -12,7 +12,7 @@ A pocketmine plugin which allows you to fake player slots or get unlimited playe
 - The plugin will **NOT** work if you enable both unlimitedSlots and fakePlayers. Only enable one at a time.
 - This plugin will **NOT** add fake players to your server. It'll only add fake filled up slots.
 
-# How do i use it?
+# How do I use it?
 
 Once you've downloaded the plugin, Put the plugin in your server's plugin folder. After that, Edit the config.yml file (Found at resources\config.yml) to 
 satisfy your needs. If you want unlimited player slots, Set the "unlimitedSlots" value to true. If you don't, Set it to false. If you want to fake your 
