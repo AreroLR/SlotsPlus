@@ -20,11 +20,12 @@ player slots, Set the "fakeSlots" value to the amount of fake slots you want. If
 
 # Commands
 
-## Permissions
+| Permissions | |
 | --- | --- |
 | `FakePlayers Command` | `SlotsPlus.command.fakeplayers` |  
 | `UnlimitedSlots` | `SlotsPlus.command.unlimitedslots` |  
 
+| Commands | |     
 | --- | --- |
 | `FakePlayers` | `/unlimitedslots` |
 | `UnlimitedSlots` | `/fakeplayers <number>` |
