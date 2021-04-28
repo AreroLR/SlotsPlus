@@ -1,23 +1,23 @@
 ---
 name: SlotsPlus
-author: cr1m
+author: Cr1m
 description: A plugin which allows you to fake player slots or get unlimited player slots.
 main: Cr1m\SlotsPlus\Main
-version: 1.5
+version: 1.7
 api:
 - 3.0.0
 commands:
   fakeplayers:
-    usage: "/fakeplayers <int>"
+    usage: "/fakeplayers <number>"
     permission: SlotsPlus.command.fakeplayers
   unlimitedslots:
     usage: "/unlimitedslots"
     permission: SlotsPlus.command.unlimitedslots
 permissions:
-  SlotsPLus.command.fakeplayers:
+  SlotsPlus.command.fakeplayers:
     description: "Allows the user to run the fakeplayers command"
     default: false
-  SlotsPLus.command.unlimitedslots:
+  SlotsPlus.command.unlimitedslots:
     description: "Allows the user to run the unlimitedslots command"
     default: false
 ...
