@@ -63,27 +63,27 @@ class Main extends PluginBase implements Listener
                             $this->config->set("fakePlayers", true);
                             $this->config->set("fakeSlots", (int)$args[0]);
 
-                            $sender->sendMessage("Enabled fake slots, with " . $args[0] . " slots");
+                            $sender->sendMessage("(!) Enabled fake slots with " . $args[0] . " slots");
                             if ($this->config->get("unlimitedSlots") === true) {
                                 $this->config->set("unlimitedSlots", false);
                             }
                             $this->config->save();
                             break;
                         } else {
-                            $sender->sendMessage("Please only use an integer i.e. 7");
+                            $sender->sendMessage("Please only use an integer (Eg. 7)");
                             break;
                         }
 
                     } else if ($this->config->get("fakePlayers") === true) {
                         $this->config->set("fakePlayers", false);
-                        $sender->sendMessage("Disabled fake slots");
+                        $sender->sendMessage("(!) Disabled fake slots.");
                         if ($this->config->get("unlimitedSlots") === true) {
                             $this->config->set("unlimitedSlots", false);
                         }
                         $this->config->save();
                         break;
                     } else {
-                        $sender->sendMessage("Something went wrong there");
+                        $sender->sendMessage("Something went wrong, Try again.");
                     }
 
                 }
@@ -94,7 +94,7 @@ class Main extends PluginBase implements Listener
                     if ($this->config->get("unlimitedSlots") === false) {
 
                         $this->config->set("unlimitedSlots", true);
-                        $sender->sendMessage("Enabled unlimited slots");
+                        $sender->sendMessage("(!) Enabled unlimited slots");
                         if ($this->config->get("fakePlayers") === true) {
                             $this->config->set("fakePlayers", false);
                         }
@@ -103,7 +103,7 @@ class Main extends PluginBase implements Listener
                     }
                     if ($this->config->get("unlimitedSlots") === true) {
                         $this->config->set("unlimitedSlots", false);
-                        $sender->sendMessage("Disabled unlimited slots");
+                        $sender->sendMessage("(!) Disabled unlimited slots");
                         if ($this->config->get("fakePlayers") === true) {
                             $this->config->set("fakePlayers", false);
                         }
