@@ -1,6 +1,6 @@
 <?php
 
-namespace Cr1m\SlotsPlus;
+namespace Helex\SlotsPlus;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
