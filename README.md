@@ -1,4 +1,4 @@
-![banner](https://user-images.githubusercontent.com/78657082/115743054-26dd2f00-a346-11eb-8514-afe07d425bc0.jpg)
+![banner](https://user-images.githubusercontent.com/78657082/116781505-232d6480-aa38-11eb-8b7c-85fd842dea27.jpg)
 
 # SlotsPlus 
 
