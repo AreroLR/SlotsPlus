@@ -1,4 +1,4 @@
---- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Cr1mDev/SlotsPlus
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/HelexDev/SlotsPlus
 build-by-default: true
 branches:
 - main
