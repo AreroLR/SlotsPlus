@@ -1,8 +1,8 @@
 ---
 name: SlotsPlus
-author: Helex
+author: Skylelo
 description: A plugin which allows you to fake player slots or get unlimited player slots.
-main: Helex\SlotsPlus\Main
+main: Skylelo\SlotsPlus\Main
 version: 1.7
 api:
 - 3.0.0
